@@ -58,10 +58,12 @@ To create hydraulic pistons using constraints in Blender, we have followed these
 3. **Apply a Track To Constraint:**
    - Step 3: Select the rod, then go to the Constraints tab (`Shift + Ctrl + C` or click the wrench icon in the Properties panel) and add a "Track To" constraint. Set the piston body as the target so the rod always points towards the body.
   
-<img src="Images/Arm.png" alt="Arm" width="200"/>
+<img src="Images/Arm.png" alt="Arm" width="400"/>
 
 ## 6. Creating Animation
 To create the animation showing the movement of the arm, we have turned on the auto-keying and created breakpoints/markers by moving the robotic arm manually, so that when we run the animation, there is a smooth transition from each marker to the next.
+
+<img src="Images/Animation.png" alt="Arm" width="400"/>
 
 ## 7. Creating the Conveyor Belt
 ### 7.1 Basic Structure:
@@ -72,9 +74,28 @@ To create the animation showing the movement of the arm, we have turned on the a
 1. **Path Animation:** Create a path (Bezier curve) for the belt segments to follow. This path will define the direction of movement of the belt.
 2. **Animating the Belt:** Parent the belt segments to the path and animate them to move along it. You can use a looped animation to simulate continuous belt movement.
 
+<img src="Images/Conveyer Belt model.png" alt="Belt" width="500"/>
+
+<img src="Images/Conveyer Belt wireframe model.png" alt="Belt" width="500"/>
+
 ### 7.3 Adding Objects on the Belt:
 1. **Object Placement:** Place simple objects (e.g., cubes, spheres) on top.
 2. **Animation:** Run the animation to see if the objects are falling and moving as per the conveyor belt movement.
 
+<img src="Images/Scene Collection Belt.png" alt="Belt" width="500"/>
+
+## Rendered Image
+Robotic Arm
+<img src="Images/Robotic Arm Rendered Image.png" alt="Arm" width="500"/>
+
+Conveyer Belt
+<img src="Images/Conveyer Belt Rendered Image.png" alt="Belt" width="500"/>
+
 ## 8. Integration of Robotic Arm and Belt
 We have then integrated the robotic arm and the belt.
+<img src="Images/Integration Image.png.png" alt="Integration" width="500"/>
+
+## Rendered Image
+Machinery
+<img src="Images/Integrated Machinery Rendered Image.png" alt="Integration" width="500"/>
+
