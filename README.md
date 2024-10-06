@@ -87,12 +87,16 @@ To create the animation showing the movement of the arm, we have turned on the a
 
 <img src="Images/Scene Collection Belt.png" alt="Belt" width="500"/>
 
-## Rendered Image
-Robotic Arm
+## Rendered Image and Animation
+1. Robotic Arm
 <img src="Images/Robotic Arm Rendered Image.png" alt="Arm" width="500"/>
 
-Conveyer Belt
+https://github.com/user-attachments/assets/7ca72965-8ba4-4132-a62d-3e9c7f40a65f
+
+2. Conveyer Belt
 <img src="Images/Conveyer Belt Rendered Image.png" alt="Belt" width="500"/>
+
+https://github.com/user-attachments/assets/b7d09051-91c0-4815-9a06-ab9169494400
 
 ## 8. Integration of Robotic Arm and Belt
 We have then integrated the robotic arm and the belt.
