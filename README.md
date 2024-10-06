@@ -1,7 +1,5 @@
-# Machinery
-# Creating a README file with the provided content for the Blender project.
-readme_content = """
-# README: Robotic Arm and Conveyor Belt Animation in Blender
+# Machinery 
+Robotic Arm and Conveyor Belt Animation in Blender
 
 ## 1. Introduction
 This in-depth guide takes you through creating a detailed and lifelike animated scene in Blender, where a robotic manipulator arm interacts with a moving conveyor belt. We’ve modeled, rigged, textured, animated, and rendered the scene, with each step accompanied by precise key commands for clarity and easy following.
@@ -75,11 +73,4 @@ To create the animation showing the movement of the arm, we have turned on the a
 ## 8. Integration of Robotic Arm and Belt
 We have then integrated the robotic arm and the belt together.
 """
-
-# Saving the content to a README.md file
-readme_path = '/mnt/data/README_RoboticArm_ConveyorBelt.md'
-with open(readme_path, 'w') as file:
-    file.write(readme_content)
-
-readme_path
 
