@@ -32,6 +32,8 @@ We will build the robotic arm piece by piece, starting from the base up to the g
 12. Add a Plane, and scale it to make it look like a plateau.
 13. Then add a cube, bevel it, and through Modifier, add a Mirror to create the pick part of it.
 
+<img src="Images/Robotic Arm Wireframe Model.png" alt="Arm" width="200"/>
+
 ## 4. Parenting in Blender for a Complete Robotic Arm
 To effectively manage the movement and animation of a complete robotic arm, you can use parenting to ensure that each part of the arm moves correctly in relation to the others. Here’s how to do it:
 
