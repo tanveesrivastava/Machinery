@@ -1,6 +1,9 @@
 # Machinery 
 Robotic Arm and Conveyor Belt Animation in Blender
 
+https://github.com/user-attachments/assets/c242f2b1-f77d-403c-86ce-c5bb3fe522df
+
+
 ## 1. Introduction
 This in-depth guide takes you through creating a detailed and lifelike animated scene in Blender, where a robotic manipulator arm interacts with a moving conveyor belt. We’ve modeled, rigged, textured, animated, and rendered the scene, with each step accompanied by precise key commands for clarity and easy following.
 
