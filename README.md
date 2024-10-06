@@ -47,6 +47,8 @@ To effectively manage the movement and animation of a complete robotic arm, you 
 2. **Shift-Select the Elbow Joint:** Hold Shift and click on the elbow joint.
 3. **Parent the Wrist to the Elbow:** Press `Ctrl + P` and choose "Object." The wrist (and the gripper) will now follow the elbow joint's movements.
 
+<img src="Images/Scene Collection.png" alt="Arm" width="300"/>
+
 ## 5. Creating Hydraulic Pistons with Constraints in Blender
 To create hydraulic pistons using constraints in Blender, we have followed these steps:
 1. **Model the Hydraulic Piston:**
@@ -55,6 +57,8 @@ To create hydraulic pistons using constraints in Blender, we have followed these
    - Step 2: Select the rod, then shift-click the body to select both. Press `Ctrl + P` and choose "Object" to parent the rod to the piston body.
 3. **Apply a Track To Constraint:**
    - Step 3: Select the rod, then go to the Constraints tab (`Shift + Ctrl + C` or click the wrench icon in the Properties panel) and add a "Track To" constraint. Set the piston body as the target so the rod always points towards the body.
+  
+<img src="Images/Arm.png" alt="Arm" width="200"/>
 
 ## 6. Creating Animation
 To create the animation showing the movement of the arm, we have turned on the auto-keying and created breakpoints/markers by moving the robotic arm manually, so that when we run the animation, there is a smooth transition from each marker to the next.
