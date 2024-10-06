@@ -19,17 +19,17 @@ This in-depth guide takes you through creating a detailed and lifelike animated 
 ## 3. Modeling the Robotic Manipulator Arm
 We will build the robotic arm piece by piece, starting from the base up to the gripper.
 1. Press `Shift + A > Mesh > Circle`.
-2. Go to Edit Mode, select the circle, and press `F` to fill.
+2. Go to Edit Mode, select the circle, and press `F` to fill in.
 3. Extrude the face by pressing `E`.
 4. Press `Shift + A > Mesh > Plane`.
-5. Select two opposite edges, extrude by `E`, then press `Z` for moment restriction only in Z direction.
+5. Select two opposite edges, extrude by `E`, then press `Z` for moment restriction only in the Z direction.
 6. Now press `Ctrl + Shift + B` for bevel edges.
 7. Press `A` to select the object, then `Alt + E` > Extrude to Normal.
 8. Press `Shift + A > Mesh > Cube`.
 9. Scale it using `S`, then extrude it from the upper face.
-10. Add a Plane, extrude the edges downwards.
-11. Then loop cut, extrude again.
-12. Add a Plane, scale it to make it look like a plateau.
+10. Add a Plane, and extrude the edges downwards.
+11. Then loop cut, and extrude again.
+12. Add a Plane, and scale it to make it look like a plateau.
 13. Then add a cube, bevel it, and through Modifier, add a Mirror to create the pick part of it.
 
 ## 4. Parenting in Blender for a Complete Robotic Arm
@@ -63,14 +63,12 @@ To create the animation showing the movement of the arm, we have turned on the a
 2. **Belt Segments:** Add small rectangular segments (cubes) on top of the plane to represent the moving segments of the belt.
 
 ### 7.2 Movement Mechanism:
-1. **Path Animation:** Create a path (Bezier curve) for the belt segments to follow. This path will define the movement direction of the belt.
-2. **Animating the Belt:** Parent the belt segments to the path and animate them to move along the path. Use a looped animation to simulate continuous belt movement.
+1. **Path Animation:** Create a path (Bezier curve) for the belt segments to follow. This path will define the direction of movement of the belt.
+2. **Animating the Belt:** Parent the belt segments to the path and animate them to move along it. You can use a looped animation to simulate continuous belt movement.
 
 ### 7.3 Adding Objects on the Belt:
 1. **Object Placement:** Place simple objects (e.g., cubes, spheres) on top.
 2. **Animation:** Run the animation to see if the objects are falling and moving as per the conveyor belt movement.
 
 ## 8. Integration of Robotic Arm and Belt
-We have then integrated the robotic arm and the belt together.
-"""
-
+We have then integrated the robotic arm and the belt.
